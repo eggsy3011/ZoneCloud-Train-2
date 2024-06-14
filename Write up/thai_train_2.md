@@ -5,25 +5,29 @@ cp file :
 
 cp file.txt file_backup.txt
 
-![alt text][def]
+![image-2](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/6791ca8c-83c5-47fa-b0d2-c0e12afa0aa4)
+
 
 cp folder
 
 cp file.txt /2
 
-![alt text][def2]
+![image-3](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/a8e1f788-4d77-43bc-a1be-01ba1c854942)
+
 
 mv command
 
 mv file
 
 
-![alt text][def3] 
+![image-4](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/18223257-edcb-4af1-8070-139e53ae1411)
+
 
 
 folder
 
-![alt text][def4]
+![image-5](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/e843e5ee-ecd4-4968-bf86-f7305d610abe)
+
 
 cut command: Lệnh cut trong các hệ điều hành giống Unix được sử dụng để trích xuất các phần cụ thể của mỗi dòng từ đầu vào.
 
@@ -33,19 +37,22 @@ cut -c <n> tên_tệp
 
 ví dụ ta có tệp sau để cut 
 
-![alt text][def5]
+![image-6](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/6a15c288-60c2-444f-ad87-6ea6fb3ba66f)
 
-![alt text][def6]
+![image-7](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/f076dcae-8053-41a5-bd72-48d8ccd94338)
+
 
 cut từ kí tự thứ <n> trở về sau
 
 cut -c <n>- tên_tệp
 
-![alt text][def7]
+![image-8](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/0b34cbae-47c2-4bee-b5f2-5244fae41c40)
+
 
 cut từ kí tự thứ <n> trở về trước
 
-![alt text](image-9.png)
+![image-9](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/fae7591d-d26e-4db8-9701-f4d6a2ae3783)
+
 
 dig command:
 
@@ -55,12 +62,14 @@ Dùng Dig command để kiểm tra resolv record A.
 
 dig  dig google.com A: Bản ghi A ánh xạ tên miền tới địa chỉ IPv4. dig ex.com A
 
-![alt text][def9]
+![image-10](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/a603312d-468c-4485-b5fc-88e4ce0bf3d9)
+
 
 
 MX. Bản ghi MX chỉ định máy chủ thư điện tử cho tên miền. dig ex.com MX
 
-![alt text][def10]
+![image-11](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/5eb16f0f-6f51-4279-9c96-61cd4b8e9944)
+
 
 NS. Bản ghi NS chỉ định máy chủ tên miền cho tên miền. dig ex.com NX
 
