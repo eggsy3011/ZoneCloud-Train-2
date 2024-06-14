@@ -205,7 +205,7 @@ nếu chúng ta thêm dữ liệu vào file hardlink.txt cũng đồng nghĩa d�
 
 như chúng ta thấy nội dung 2 file y nhau nếu ta xóa 1 file cũng k ảnh hưởng gì file còn lại.
 
-![alt text][def25]![image-27](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/2a59cccd-26c3-4b12-ae8a-3c90401e9ed0)
+![image-27](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/cc111c23-d25d-48f0-9845-fa0e6f70ff36)
 
 ls command
 
@@ -213,11 +213,6 @@ ls command
 Liệt kê danh sách file/thư mục
 
 ls
-
-ls -i
-
-![image-27](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/540f8c15-7a44-4c9c-8d3b-865917d183a8)
-
 
 ls -a 
 
