@@ -11,7 +11,8 @@ cp file.txt file_backup.txt
 ```
 cp -r  /abctest  /123
 ```
-![image-3](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/a8e1f788-4d77-43bc-a1be-01ba1c854942)
+![image](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/b0ff1e6b-560b-4bea-8a1d-5b3712ee88d8)
+
 
 # mv command
 
