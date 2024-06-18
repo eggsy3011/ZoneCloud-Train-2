@@ -228,11 +228,13 @@ ls /etc
 ![image-30](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/e16797de-86da-4fa6-847c-f4638ca8fdcb)
 
 ```
-ls -a | grep "^\\."
+ls -la
 ```
 Show file ẩn
 
-![image-31](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/d39a8050-1d68-4801-8d82-e2130cd0b5e7)
+
+![image](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/4cae58fe-dbd0-4700-bfdd-108ef135f6a3)
+
 
 
 
