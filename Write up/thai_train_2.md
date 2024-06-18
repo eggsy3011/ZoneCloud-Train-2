@@ -210,6 +210,13 @@ như chúng ta thấy nội dung 2 file y nhau nếu ta xóa 1 file cũng k ản
 
 ![image-27](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/cc111c23-d25d-48f0-9845-fa0e6f70ff36)
 
+NOTE : 
+
+Thêm dữ liệu: Thêm dữ liệu vào bất kỳ hard link nào sẽ ảnh hưởng đến tất cả các hard link khác, vì tất cả đều trỏ tới cùng một inode và do đó cùng một dữ liệu.
+
+Xóa tệp: Xóa một hard link không ảnh hưởng đến dữ liệu nếu còn ít nhất một hard link khác trỏ tới cùng inode. Dữ liệu chỉ bị xóa khỏi hệ thống tệp khi tất cả các hard link tới inode đó bị xóa.
+
+
 # Ls command
 
 
