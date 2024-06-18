@@ -215,20 +215,20 @@ ln file_name.txt hardlink.txt
 ```
 ll -i
 ```
-![image-24](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/3fed535c-b2ff-4f79-aefb-912e559d2d1b)
+![image](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/c5e88829-00ef-4330-82d8-d75db2c3e89a)
+
 
 
 nếu chúng ta thêm dữ liệu vào file hardlink.txt cũng đồng nghĩa dữ liệu đó được thêm vào file_name.txt
 
-![image-25](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/e709021a-f14f-43ab-9450-62c590d5975d)
+![image](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/e9cc0ef6-ffcc-4ead-bbf5-610485b6c7f7)
 
-
-![image-26](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/40c7cab8-e041-4ec1-aa2b-0c5b54f7da1c)
 
 
 như chúng ta thấy nội dung 2 file y nhau nếu ta xóa 1 file cũng k ảnh hưởng gì file còn lại.
 
-![image-27](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/cc111c23-d25d-48f0-9845-fa0e6f70ff36)
+![image](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/527a9a3c-558b-4e26-9722-f5d8acf4da29)
+
 
 NOTE : 
 
