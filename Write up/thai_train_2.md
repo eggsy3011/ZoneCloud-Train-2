@@ -9,7 +9,7 @@ cp file.txt file_backup.txt
 
 # cp folder
 ```
-cp file.txt /2
+cp -r  /abctest  /123
 ```
 ![image-3](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/a8e1f788-4d77-43bc-a1be-01ba1c854942)
 
@@ -17,11 +17,13 @@ cp file.txt /2
 
 mv file
 
-![image-4](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/18223257-edcb-4af1-8070-139e53ae1411)
+![image](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/6ef8da01-aebe-4e2f-8d00-4c994d5372d5)
+
 
 folder
 
-![image-5](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/e843e5ee-ecd4-4968-bf86-f7305d610abe)
+![image](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/6b4feeec-cd5b-48a7-afb7-68d4f0078b38)
+
 
 
 # cut command: Lệnh cut trong các hệ điều hành giống Unix được sử dụng để trích xuất các phần cụ thể của mỗi dòng từ đầu vào.
