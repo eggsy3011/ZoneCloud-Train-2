@@ -362,15 +362,25 @@ df - h
 
 
 
-Phân vùng / là gì 
 
-Phân vùng / (root) là phân vùng gốc của hệ thống tệp trong Linux. Đây là nơi bắt đầu của cấu trúc thư mục trong hệ điều hành, và tất cả các tệp và thư mục khác đều nằm trong phân vùng này hoặc trong các phân vùng khác được gắn kết vào hệ thống tệp tại các điểm khác nhau.
-
-Phân vùng tmpfs là gì
-
- là một loại hệ thống tệp đặc biệt sử dụng RAM làm phương tiện lưu trữ thay vì đĩa cứng. Điều này có nghĩa là dữ liệu trong tmpfs sẽ được lưu trữ tạm thời trong bộ nhớ RAM và sẽ bị mất khi hệ thống khởi động lại.
-
-#
+# 1./ (Root)
+Định nghĩa: Đây là phân vùng gốc của hệ thống. Tất cả các thư mục và tệp tin khác đều nằm dưới phân vùng này.
+Ví dụ: Khi bạn cài đặt một hệ điều hành Linux, phân vùng / là nơi mà tất cả các tệp hệ thống và thư mục khác được cài đặt. Đây là nơi bắt đầu của cấu trúc thư mục.
+# 2.. /boot
+Định nghĩa: Phân vùng này chứa các tệp tin cần thiết để khởi động hệ điều hành, chẳng hạn như các kernel và các tệp khởi động.
+Ví dụ: Khi máy tính của bạn khởi động, nó sẽ sử dụng các tệp tin trong phân vùng /boot để nạp hệ điều hành vào bộ nhớ.
+# 3. /home
+Định nghĩa: Đây là phân vùng chứa các thư mục cá nhân của người dùng. Mỗi người dùng trên hệ thống sẽ có một thư mục riêng trong /home.
+Ví dụ: Nếu bạn có người dùng tên là alice, thì thư mục cá nhân của cô ấy sẽ là /home/alice, nơi lưu trữ tất cả các tệp tin và cài đặt cá nhân của cô ấy.
+# 4. /swap
+Định nghĩa: Phân vùng swap được sử dụng như bộ nhớ ảo. Khi RAM của bạn đầy, hệ thống sẽ sử dụng phân vùng swap để lưu trữ tạm thời các dữ liệu không cần thiết ngay lập tức.
+Ví dụ: Nếu bạn đang chạy nhiều ứng dụng nặng và RAM của bạn bị đầy, hệ thống sẽ chuyển một số dữ liệu từ RAM sang phân vùng swap để giải phóng bộ nhớ.
+# 5. ext4
+Định nghĩa: Đây là một hệ thống tệp (filesystem) phổ biến trên Linux. Nó được thiết kế để quản lý và lưu trữ dữ liệu trên đĩa cứng.
+Ví dụ: Khi bạn định dạng một ổ đĩa cứng hoặc phân vùng với ext4, hệ thống tệp này sẽ được sử dụng để tổ chức và quản lý dữ liệu trên phân vùng đó.
+# 6. sfts (SFTP - Secure File Transfer Protocol)
+Định nghĩa: Đây là một giao thức mạng an toàn để truyền tệp qua mạng. Nó sử dụng SSH để cung cấp một lớp bảo mật cho quá trình truyền tệp.
+Ví dụ: Khi bạn muốn truyền tệp từ máy tính của mình lên một máy chủ từ xa một cách an toàn, bạn có thể sử dụng SFTP. Ví dụ, lệnh sftp user@remote-server sẽ mở kết nối SFTP đến máy chủ từ xa và bạn có thể truyền tệp qua kết nối này.
 
 Tìm hiểu về LVM 
 
