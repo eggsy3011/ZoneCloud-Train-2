@@ -2,7 +2,7 @@
 # cp command
 # cp file :
 ```
-cp file.txt file_backup.txt
+cp file.txt file_backup.txt 
 ```
 ![image-2](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/6791ca8c-83c5-47fa-b0d2-c0e12afa0aa4)
 
@@ -97,8 +97,11 @@ A :  dig @<dns-server> <domain> A
 tar -czvf ten_file.tar.gz ten_file
 ```
 -c: Tạo tệp mới.
+
 -z: Sử dụng gzip để nén.
+
 -v: Hiển thị tiến trình trên màn hình.
+
 -f: Xác định tên của tệp nén.
 
 ![image-17](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/48469f26-9bda-4d1c-998e-a1f2ccd37219)
@@ -109,8 +112,11 @@ tar -czvf ten_file.tar.gz ten_file
 tar -xzvf ten_file.tar.gz
 ```
 -x: Trích xuất các tệp từ tệp nén.
+
 -z: Sử dụng gzip để giải nén.
+
 -v: Hiển thị tiến trình trên màn hình.
+
 -f: Xác định tên của tệp nén.
 
 ![image-18](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/15f3df53-6888-4de4-8c46-57f31474a98a)
