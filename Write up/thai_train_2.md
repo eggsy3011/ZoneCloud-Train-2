@@ -9,7 +9,7 @@ cp file.txt file_backup.txt
 
 # cp folder
 ```
-cp -r  /abctest  /123
+cp -r  /123  /abctest
 ```
 ![image](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/b0ff1e6b-560b-4bea-8a1d-5b3712ee88d8)
 
