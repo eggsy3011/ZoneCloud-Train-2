@@ -30,25 +30,34 @@ folder
 
 # Cut kí tự thứ <n> trong string
 ```
-cut -c <n> tên_tệp
+cut -c <n> tên_tệp 
 ```
-ví dụ ta có tệp sau để cut 
+ví dụ: Trích xuất ký tự từ vị trí thứ <n> trở đi (VD: từ vị trí thứ 10 đến cuối mỗi dòng)
 
-![image-6](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/6a15c288-60c2-444f-ad87-6ea6fb3ba66f)
+![image](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/9eaa36ab-770e-434c-b3f5-f61952467640)
 
-![image-7](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/f076dcae-8053-41a5-bd72-48d8ccd94338)
 
 
 # Cut từ kí tự thứ <n> trở về sau
 ```
 cut -c <n>- tên_tệp
 ```
-![image-8](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/0b34cbae-47c2-4bee-b5f2-5244fae41c40)
+ví dụ:
+Để trích xuất từ ký tự thứ 7 trở về sau của mỗi dòng trong tệp này: 
 
+![image](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/097d3ac6-7ed3-4d8c-8eb8-e93e59979208)
+
+ví dụ: 
+
+Để trích xuất từ đầu dòng đến ký tự thứ 5 của mỗi dòng trong tệp này
 
 # Cut từ kí tự thứ <n> trở về trước
 
-![image-9](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/fae7591d-d26e-4db8-9701-f4d6a2ae3783)
+
+![image](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/fc367190-4e79-4b47-b550-606d19c19be2)
+
+
+
 
 
 # dig command:
@@ -168,7 +177,17 @@ Không thể tạo cho thư mục: Hard links không thể được tạo cho c�
 # Ví dụ về Sym Link và Hard Link :
 
 Ex: sym link : 
+```
+Symlink: Một "đường tắt" hoặc "shortcut" trỏ tới một tệp hoặc thư mục khác. Nó chứa thông tin về vị trí của tệp hoặc thư mục đích nhưng không chứa nội dung thực tế của tệp đó.
 
+Không chia sẻ inode với tệp đích: Symlink có inode riêng của nó. Nó chỉ chứa đường dẫn tới tệp đích chứ không phải dữ liệu thực tế của tệp đó.
+
+Có thể trỏ đến bất kỳ đâu: Symlink có thể trỏ tới tệp hoặc thư mục trên cùng hoặc khác hệ thống tệp.
+
+Có thể liên kết thư mục: Bạn có thể tạo symlink cho cả tệp và thư mục.
+
+Dễ bị đứt (dangling link): Nếu tệp hoặc thư mục đích bị xóa hoặc di chuyển, symlink sẽ trở thành "dangling link" (liên kết đứt gãy) và không còn hợp lệ.
+```
 # Ta tạo sym link có tên softlink.txt trỏ về file_name.txt, và softlink_folder.txt trỏ về folder_name.
 ```
 ln -s file_name.txt softlink.txt
@@ -182,10 +201,11 @@ ls -i
 ```
 ll - i
 ``` 
-![image-22](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/d3b9f30f-e589-4b00-9965-38ea10d317ee)
+![image](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/94393304-885b-436d-90dc-c9bf6eb54896)
 
 
-![image-23](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/3c661a3e-add9-40eb-995c-8157dc058ce7)
+![image](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/99c7c41a-cc54-4217-b3bb-6bd1c627fd63)
+
 
 
 # Hard Link: Tạo Hardlinks có tên hardlink.txt trỏ về file_name.txt
