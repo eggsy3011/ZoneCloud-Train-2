@@ -303,7 +303,8 @@ Sleeping process: Tiến trình đang chờ sự kiện nào đó để thực h
 
 # Free command
 
-![image-37](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/0191cce4-9ea4-4c1a-bb6f-50f9aace7da5)
+![image](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/bc9edf17-8fe2-4bf8-b0bc-5a7b11e750c5)
+
 
 
 Giải thích ram used, free, shared, buff/cache, free
