@@ -161,7 +161,7 @@ Không thể tạo cho thư mục: Hard links không thể được tạo cho c�
 
 Ex: sym link : 
 
-# Ta tạo sym link có tên softlink.txt trỏ về file_name.txt, và softlink_foldẻ.txt trỏ về foldẻ_name.
+# Ta tạo sym link có tên softlink.txt trỏ về file_name.txt, và softlink_folder.txt trỏ về folder_name.
 ```
 ln -s file_name.txt softlink.txt
 ```
