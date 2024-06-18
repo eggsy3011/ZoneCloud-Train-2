@@ -4,7 +4,7 @@
 ```
 cp file.txt file_backup.txt 
 ```
-![image-2](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/6791ca8c-83c5-47fa-b0d2-c0e12afa0aa4)
+![image](https://github.com/eggsy3011/ZoneCloud-Train-2/assets/108015833/dc8c3fe4-94b2-441d-a7d6-ee3e51c2a5f0)
 
 
 # cp folder
